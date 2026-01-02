@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pallete Cleanser</title>
+    <link rel="stylesheet" href="popup.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="title-container">
+      <h1>Palette Cleanser</h1>
+    </div>
+    <div class="content-conainter">
+      <div class="instruction">
+        <h2>Choose Your Pallete:</h2>
+      </div>
+      <div class="pallete-container">
+        <div class="season" id="summer">
+          <h3>Summer</h3>
+          <div class="quality">
+            <input type="radio" name="season" id="summer-light" hidden />
+            <label for="summer-light">Light</label>
+
+            <input type="radio" name="season" id="summer-true" hidden />
+            <label for="summer-true">True</label>
+
+            <input type="radio" name="season" id="summer-soft" hidden />
+            <label for="summer-soft">Soft</label>
+          </div>
+        </div>
+
+        <div class="season" id="spring">
+          <h3>Spring</h3>
+          <div class="quality">
+            <input type="radio" name="season" id="spring-light" hidden />
+            <label for="spring-light">Light</label>
+
+            <input type="radio" name="season" id="spring-true" hidden />
+            <label for="spring-true">True</label>
+
+            <input type="radio" name="season" id="spring-bright" hidden />
+            <label for="spring-bright">Bright</label>
+          </div>
+        </div>
+
+        <div class="season" id="autumn">
+          <h3>Autumn</h3>
+          <div class="quality">
+            <input type="radio" name="season" id="autumn-soft" hidden />
+            <label for="autumn-soft">Soft</label>
+
+            <input type="radio" name="season" id="autumn-true" hidden />
+            <label for="autumn-true">True</label>
+
+            <input type="radio" name="season" id="autumn-dark" hidden />
+            <label for="autumn-dark">Dark</label>
+          </div>
+        </div>
+
+        <div class="season" id="winter">
+          <h3>Winter</h3>
+          <div class="quality">
+            <input type="radio" name="season" id="winter-bright" hidden />
+            <label for="winter-bright">Bright</label>
+
+            <input type="radio" name="season" id="winter-true" hidden />
+            <label for="winter-true">True</label>
+
+            <input type="radio" name="season" id="winter-dark" hidden />
+            <label for="winter-dark">Dark</label>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="button-container">
+      <button disabled class="enter-btn">Enter</button>
+    </div>
+  </body>
+</html>
