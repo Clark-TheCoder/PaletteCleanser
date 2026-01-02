@@ -39,7 +39,7 @@ body {
   font-size: small;
 }
 
-.pallete-container {
+.palette-container {
   display: flex;
   flex-direction: column;
   align-items: center;
