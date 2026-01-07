@@ -9,5 +9,12 @@
       "24": "/media/iconLg.png"
     }
   },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["script/pageScanner.js"],
+      "run_at": "document_idle"
+    }
+  ],
   "permissions": []
 }
