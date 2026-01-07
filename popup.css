@@ -114,13 +114,34 @@ body {
   color: #800202;
 }
 
+label[for="clear"] {
+  margin: 10px 0px;
+  color: #8fc3d9;
+  font-family: Montserrat;
+  letter-spacing: 2px;
+  font-size: small;
+  cursor: pointer;
+}
+
+#clear:checked + label {
+  font-weight: 700;
+  cursor: default;
+}
+
 .season:hover .quality {
   transform: translateX(0);
 }
 
-.enter-btn:disabled {
+#enter-btn:disabled {
   background-color: #cdc7bf;
   color: #9c9a9a;
+  font-family: "Instrument Serif";
+  border: none;
+}
+
+#enter-btn {
+  background-color: #8fc3d9;
+  color: #800202;
   font-family: "Instrument Serif";
   border: none;
 }
@@ -130,12 +151,4 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-}
-
-.enter-btn {
-  margin: 10px 0px;
-  background-color: #8fc3d9;
-  color: #550000;
-  font-family: "Instrument Serif";
-  border: none;
 }
